@@ -78,9 +78,9 @@ const sessionOptions={
     },
 };
 
-// app.get("/",(req,res)=>{
-//     res.send("Its working dude..and I am Root");
-// });
+app.get("/",(req,res)=>{
+    res.send("Its working dude..and I am Root");
+});
 
 
 
